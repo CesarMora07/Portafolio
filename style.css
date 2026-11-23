@@ -1,0 +1,122 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: dimgray;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+
+.encabezado {
+    display: flex;
+    justify-content: space-around;
+    background-color: #444;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    a:link{
+    color: rgb(236, 240, 238);   
+    }
+    a:visited{
+    color: rgb(242, 242, 248);
+    }
+}
+
+
+.perfil-contenedor {
+    max-width: 600px;
+    margin: 0 auto; 
+    background-color: #555555;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+
+.foto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.foto img {
+    border-radius: 20%; 
+    border: 3px solid aliceblue;
+}
+
+hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid aliceblue;
+}
+
+.datos p, .sobre-mi p {
+    margin-bottom: 10px;
+}
+
+ul {
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+
+.contacto {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.boton-instagram {
+    display: inline-block;
+    background-color: #E1306C;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.1 ease;
+}
+
+
+.boton-instagram:hover {
+    transform: scale(1.2);
+    background: #5a3386; 
+    box-shadow: 0 8px 20px black;
+}
+
+/* @keyframes saltar {
+    0% {
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.boton-instagram{
+    animation-name: saltar;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+} */
+
+.boton-instagram:hover{
+    transform: rotate(45deg);
+}
